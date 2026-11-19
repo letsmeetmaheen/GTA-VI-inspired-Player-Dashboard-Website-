@@ -1,18 +1,28 @@
 # 🎮 GTA VI Inspired Player Dashboard Website
 
-A premium, cinematic **GTA VI-inspired Player Dashboard Website** built as a fan-made gaming interface concept. The project combines a dark neon visual style with immersive imagery, authentication screens, interactive cards, smooth animations, responsive layouts, and a modern gaming dashboard experience.
+A premium, cinematic **GTA VI-inspired Player Dashboard Website** built as a fan-made gaming interface concept. The project combines cinematic visuals, dark neon aesthetics, authentication screens, interactive dashboard components, immersive imagery, and responsive design.
 
 > **Disclaimer:** This is an unofficial fan-made concept and is not affiliated with, endorsed by, or sponsored by Rockstar Games.
 
 ---
 
-## 🌴 Project Overview
+## 🌐 Live Demo
+
+🚀 **Experience the live website:**
+
+👉 https://gta-vi-player-dashboard.vercel.app
+
+The project is deployed using **Vercel** and is available online.
+
+---
+
+## 📌 Project Overview
 
 **GTA VI Inspired Player Dashboard Website** is a fictional gaming platform inspired by the atmosphere of Vice City and the visual style of modern AAA games.
 
-The project includes a cinematic **Sign In / Sign Up experience** that leads into an immersive player dashboard featuring characters, locations, missions, vehicles, player statistics, and an interactive Leonida-inspired environment.
+The website includes a cinematic **Sign In / Sign Up experience** that leads into a premium player dashboard featuring characters, locations, missions, vehicles, player statistics, gallery sections, and a Leonida-inspired map.
 
-The main goal is to create a **visual-first gaming website** rather than a traditional SaaS or admin dashboard.
+The main goal of this project is to create a **visual-first gaming experience** rather than a traditional SaaS or admin dashboard.
 
 ---
 
@@ -29,6 +39,7 @@ The website includes a dedicated cinematic authentication experience.
 - Remember Me option
 - Forgot Password option
 - Sign In button
+- Password visibility toggle
 - Modern glassmorphism authentication card
 - Neon hover effects
 - Responsive layout
@@ -51,7 +62,7 @@ The authentication interface follows the same **dark, neon and cinematic GTA VI-
 
 ## 🎬 Cinematic Entry Experience
 
-The website begins with a cinematic gaming-style experience before entering the player dashboard.
+The website uses a cinematic gaming-style experience to introduce the user to the interface.
 
 The visual flow is designed around:
 
@@ -67,19 +78,19 @@ After authentication, users enter the main fictional player dashboard.
 
 ### Navigation
 
-- GTA VI Player Hub
-- Home
-- Missions
-- Map
-- Characters
-- Garage
+- VICE CITY PLAYER HUB
+- HOME
+- MISSIONS
+- MAP
+- CHARACTERS
+- GARAGE
 - Player Profile
 - Level Indicator
 - Online Status
 
 ---
 
-## 👤 Character Section
+## 👥 Character Section
 
 A dedicated character showcase featuring:
 
@@ -198,7 +209,7 @@ A dark Leonida-inspired map section with glowing markers for:
 - Password visibility toggle
 - Form validation
 - Navigation interactions
-- Mobile menu
+- Responsive mobile menu
 - Hover image zoom
 - Neon hover effects
 - Character interactions
@@ -239,7 +250,7 @@ The overall design follows approximately a **70% imagery / 30% UI** visual balan
 
 ## 📱 Responsive Design
 
-The website is designed for:
+The website is designed for different screen sizes:
 
 - Desktop
 - Laptop
@@ -265,6 +276,7 @@ Authentication forms, navigation, galleries, cards, dashboard sections, and moda
 - VS Code
 - Git
 - GitHub
+- Vercel
 
 ---
 
@@ -294,31 +306,31 @@ GTA-VI-inspired-Player-Dashboard-Website/
 
 ## 🚀 Getting Started
 
-### Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/letsmeetmaheen/GTA-VI-inspired-Player-Dashboard-Website-.git
 ```
 
-### Enter the Project
+### 2. Enter the Project Directory
 
 ```bash
 cd GTA-VI-inspired-Player-Dashboard-Website-
 ```
 
-### Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-Or:
+Or using pnpm:
 
 ```bash
 pnpm install
 ```
 
-### Run Development Server
+### 4. Start the Development Server
 
 ```bash
 npm run dev
@@ -330,11 +342,13 @@ Or:
 pnpm dev
 ```
 
-Open the local development URL provided by Vite.
+Then open the local development URL provided by Vite.
 
 ---
 
 ## 🔮 Future Improvements
+
+Possible future improvements include:
 
 - Firebase Authentication
 - Real user registration and login
@@ -347,7 +361,7 @@ Open the local development URL provided by Vite.
 - Interactive map
 - Vehicle customization
 - Player settings
-- Backend API
+- Backend API integration
 - Online multiplayer-style features
 
 ---
